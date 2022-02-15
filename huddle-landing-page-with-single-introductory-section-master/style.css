@@ -58,3 +58,34 @@ h1 {
     color: white;
     background-color: violet;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2em;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  .left-container{
+      width: 90%;
+      padding: 3em;
+      padding-left: 1.5em;
+      float: none;
+  }
+
+  .right-container {
+      text-align: center;
+      padding: 2em;
+      padding-top: 0;
+      padding-bottom: 4em;
+  }
+
+  .logo-img {
+      width: 40%;
+  }
+}
